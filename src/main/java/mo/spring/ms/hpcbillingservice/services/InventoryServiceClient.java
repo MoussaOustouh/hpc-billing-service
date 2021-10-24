@@ -11,6 +11,6 @@ public interface InventoryServiceClient {
     @GetMapping("/products/{id}?projection=fullProduct")
     Product findProductById(@PathVariable("id") Long id);
 
-    @GetMapping("products?projection=fullProduct")
+    @GetMapping("/products?projection=fullProduct")
     PagedModel<Product> findAll();
 }
