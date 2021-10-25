@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import mo.spring.ms.hpcbillingservice.classes.Product;
+import mo.spring.ms.hpcbillingservice.models.Product;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

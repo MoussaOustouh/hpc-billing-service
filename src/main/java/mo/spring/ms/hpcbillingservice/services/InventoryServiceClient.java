@@ -1,6 +1,6 @@
 package mo.spring.ms.hpcbillingservice.services;
 
-import mo.spring.ms.hpcbillingservice.classes.Product;
+import mo.spring.ms.hpcbillingservice.models.Product;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.hateoas.PagedModel;
 import org.springframework.web.bind.annotation.GetMapping;

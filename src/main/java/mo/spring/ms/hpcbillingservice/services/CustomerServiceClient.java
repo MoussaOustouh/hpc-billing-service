@@ -1,6 +1,6 @@
 package mo.spring.ms.hpcbillingservice.services;
 
-import mo.spring.ms.hpcbillingservice.classes.Customer;
+import mo.spring.ms.hpcbillingservice.models.Customer;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

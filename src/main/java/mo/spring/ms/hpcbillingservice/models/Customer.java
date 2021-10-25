@@ -1,4 +1,4 @@
-package mo.spring.ms.hpcbillingservice.classes;
+package mo.spring.ms.hpcbillingservice.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
